@@ -1,0 +1,17 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(10, 8)">
+    <path d="M22 2 L38 18 L26 24 L14 18 Z" fill="url(#goldGrad)" opacity="0.9"/>
+    <path d="M2 12 L20 20 L10 28 L0 20 Z" fill="#06b6d4" opacity="0.8"/>
+    <path d="M42 12 L24 20 L34 28 L44 20 Z" fill="url(#goldGrad)" opacity="0.8"/>
+    <circle cx="22" cy="22" r="4" fill="#ffffff"/>
+    <circle cx="22" cy="22" r="12" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="2 2"/>
+  </g>
+  <text x="65" y="32" font-family="system-ui, sans-serif" font-weight="900" font-size="24" fill="#ffffff" letter-spacing="3">B.A.R.T.</text>
+  <text x="66" y="46" font-family="monospace" font-weight="700" font-size="7.5" fill="#f59e0b" letter-spacing="1.8">AERIAL DEFENCE INTELLIGENCE</text>
+</svg>
