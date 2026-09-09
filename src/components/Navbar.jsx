@@ -49,7 +49,7 @@ export default function Navbar() {
         {/* Brand & Official Logo */}
         <a href="#" className="flex items-center group py-1">
           <img
-            src="/assets/logo/bart-logo-full.png"
+            src="./assets/logo/bart-logo-full.png"
             alt="B.A.R.T. - Biomimetic Autonomous Robotics & Technologies"
             className="h-10 sm:h-12 w-auto max-w-[240px] sm:max-w-[280px] object-contain transition-transform group-hover:scale-[1.02]"
           />

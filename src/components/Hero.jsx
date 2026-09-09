@@ -17,13 +17,13 @@ export default function Hero() {
           muted
           loop
           playsInline
-          poster="/assets/project-chaya/images/chaya-concept.jpg"
+          poster="./assets/project-chaya/images/chaya-concept.jpg"
           className="w-full h-full object-cover opacity-35 scale-105 filter brightness-90"
         >
-          <source src="/assets/uluka-n1/videos/uluka-nightops-flight.mp4" type="video/mp4" />
+          <source src="./assets/uluka-n1/videos/uluka-nightops-flight.mp4" type="video/mp4" />
           {/* Fallback image if video cannot play */}
           <img
-            src="/assets/project-chaya/images/chaya-concept.jpg"
+            src="./assets/project-chaya/images/chaya-concept.jpg"
             alt="Project CHAYA Aerial System"
             className="w-full h-full object-cover"
           />

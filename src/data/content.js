@@ -11,8 +11,8 @@ export const COMPANY_INFO = {
   classification: 'RESTRICTED / DEFENCE COMMERCIAL',
   contactEmail: 'liaison@bart-defence.in',
   secureComms: 'PGP-4096 / AES-256 Encrypted Telemetry Portal',
-  logoUrl: '/assets/logo/bart-logo-full.png',
-  emblemUrl: '/assets/logo/bart-emblem.png'
+  logoUrl: './assets/logo/bart-logo-full.png',
+  emblemUrl: './assets/logo/bart-emblem.png'
 };
 
 export const KEY_METRICS = [
@@ -83,10 +83,10 @@ export const PROJECT_CHAYA = {
     }
   ],
   media: {
-    heroImage: '/assets/project-chaya/images/chaya-concept.jpg',
-    flightVideo: '/assets/project-chaya/videos/chaya-demonstration.mp4',
-    highAltitudeImage: '/assets/project-chaya/images/chaya-high-altitude.jpg',
-    thermalReconImage: '/assets/project-chaya/images/chaya-thermal-recon.jpg'
+    heroImage: './assets/project-chaya/images/chaya-concept.jpg',
+    flightVideo: './assets/project-chaya/videos/chaya-demonstration.mp4',
+    highAltitudeImage: './assets/project-chaya/images/chaya-high-altitude.jpg',
+    thermalReconImage: './assets/project-chaya/images/chaya-thermal-recon.jpg'
   }
 };
 
@@ -113,7 +113,7 @@ export const PLATFORMS = {
     landingGear: 'High-Torque Bio-Claw Mechanical Talons with Impact-Damping Pistons',
     featuredMedia: {
       type: 'image',
-      src: '/assets/uluka-n1/images/uluka-subsystem-analysis.jpg',
+      src: './assets/uluka-n1/images/uluka-subsystem-analysis.jpg',
       title: 'ULUKA-N1 Subsystem Analysis',
       caption: 'ULUKA-N1 — Biomimetic flight platform & subsystem breakdown'
     },
@@ -121,43 +121,43 @@ export const PLATFORMS = {
       {
         id: 'u-sub-1',
         type: 'image',
-        src: '/assets/uluka-n1/images/uluka-subsystem-analysis.jpg',
+        src: './assets/uluka-n1/images/uluka-subsystem-analysis.jpg',
         title: 'Subsystem Analysis & Avionics',
         caption: 'ULUKA-N1 — Subsystem layout, dual-spectrum optics, and talon mechanics'
       },
       {
         id: 'u-opt-2',
         type: 'image',
-        src: '/assets/uluka-n1/images/uluka-thermal-ai-spec.jpg',
+        src: './assets/uluka-n1/images/uluka-thermal-ai-spec.jpg',
         title: 'Owl-Eye Thermal AI Vision Spec',
         caption: 'ULUKA-N1 — Dual pupil thermal fusion & VIRTUS-EYE neural engine'
       },
       {
         id: 'u-plt-3',
         type: 'image',
-        src: '/assets/uluka-n1/images/uluka-stealth-platform.jpg',
+        src: './assets/uluka-n1/images/uluka-stealth-platform.jpg',
         title: 'Dorsal Power & Solar Integration',
         caption: 'ULUKA-N1 — Dorsal micro-battery array & synthetic feather layering'
       },
       {
         id: 'u-mor-4',
         type: 'image',
-        src: '/assets/uluka-n1/images/uluka-morphology.jpg',
+        src: './assets/uluka-n1/images/uluka-morphology.jpg',
         title: 'Indian Eagle-Owl Morphology',
         caption: 'ULUKA-N1 — Natural biomimetic silhouette & branch perching profile'
       },
       {
         id: 'u-det-5',
         type: 'image',
-        src: '/assets/uluka-n1/images/uluka-subsystem-detail.jpg',
+        src: './assets/uluka-n1/images/uluka-subsystem-detail.jpg',
         title: 'Ventral Payload Bay & Talons',
         caption: 'ULUKA-N1 — Removable Li-Si battery pack and non-slip polymer talons'
       },
       {
         id: 'u-vid-1',
         type: 'video',
-        src: '/assets/uluka-n1/videos/uluka-nightops-flight.mp4',
-        poster: '/assets/uluka-n1/images/uluka-stealth-platform.jpg',
+        src: './assets/uluka-n1/videos/uluka-nightops-flight.mp4',
+        poster: './assets/uluka-n1/images/uluka-stealth-platform.jpg',
         title: 'ULUKA-N1 Flight Demonstration',
         caption: 'ULUKA-N1 — Silent night-flight kinematics and nocturnal tracking'
       }
@@ -197,7 +197,7 @@ export const PLATFORMS = {
     serviceCeiling: '6,000 Meters (High-Altitude Himalayan Envelope)',
     featuredMedia: {
       type: 'image',
-      src: '/assets/shyena-d1/images/shyena-blueprint-specs.jpg',
+      src: './assets/shyena-d1/images/shyena-blueprint-specs.jpg',
       title: 'SHYENA-D1 Engineering Blueprint',
       caption: 'SHYENA-D1 — Complete technical blueprint and kinematic specifications'
     },
@@ -205,51 +205,51 @@ export const PLATFORMS = {
       {
         id: 's-blu-1',
         type: 'image',
-        src: '/assets/shyena-d1/images/shyena-blueprint-specs.jpg',
+        src: './assets/shyena-d1/images/shyena-blueprint-specs.jpg',
         title: 'System Specifications Blueprint',
         caption: 'SHYENA-D1 — Engineering schematic, wing micro-servos, and data flow'
       },
       {
         id: 's-soa-2',
         type: 'image',
-        src: '/assets/shyena-d1/images/shyena-himalayan-soaring.jpg',
+        src: './assets/shyena-d1/images/shyena-himalayan-soaring.jpg',
         title: 'High-Altitude Himalayan Soaring',
         caption: 'SHYENA-D1 — High-altitude configuration over snowcapped peaks'
       },
       {
         id: 's-cut-3',
         type: 'image',
-        src: '/assets/shyena-d1/images/shyena-subsystems-cutaway.jpg',
+        src: './assets/shyena-d1/images/shyena-subsystems-cutaway.jpg',
         title: 'Avionics & Energy Harvesting Cutaway',
         caption: 'SHYENA-D1 — Solar feather cells, Li-Si pack, and secure data link'
       },
       {
         id: 's-opt-4',
         type: 'image',
-        src: '/assets/shyena-d1/images/shyena-optics-virtuseye.jpg',
+        src: './assets/shyena-d1/images/shyena-optics-virtuseye.jpg',
         title: 'Eagle-Eye 30x Optical Lens Close-up',
         caption: 'SHYENA-D1 — 30x telephoto right pupil & VIRTUS-EYE neural HUD'
       },
       {
         id: 's-prc-5',
         type: 'image',
-        src: '/assets/shyena-d1/images/shyena-perched-mountain.jpg',
+        src: './assets/shyena-d1/images/shyena-perched-mountain.jpg',
         title: 'Perched Mountain Reconnaissance',
         caption: 'SHYENA-D1 — High-torque bio-claws anchored to alpine rock face'
       },
       {
         id: 's-vid-1',
         type: 'video',
-        src: '/assets/shyena-d1/videos/shyena-apex-flight.mp4',
-        poster: '/assets/shyena-d1/images/shyena-himalayan-soaring.jpg',
+        src: './assets/shyena-d1/videos/shyena-apex-flight.mp4',
+        poster: './assets/shyena-d1/images/shyena-himalayan-soaring.jpg',
         title: 'SHYENA-D1 High-Altitude Flight',
         caption: 'SHYENA-D1 — Mountain ridge soaring and aerodynamic stabilization'
       },
       {
         id: 's-vid-2',
         type: 'video',
-        src: '/assets/shyena-d1/videos/shyena-mountain-recon.mp4',
-        poster: '/assets/shyena-d1/images/shyena-perched-mountain.jpg',
+        src: './assets/shyena-d1/videos/shyena-mountain-recon.mp4',
+        poster: './assets/shyena-d1/images/shyena-perched-mountain.jpg',
         title: 'SHYENA-D1 Mountain Reconnaissance',
         caption: 'SHYENA-D1 — Long-range surveillance mission over forward borders'
       }
@@ -441,8 +441,8 @@ export const VIDEO_SHOWCASE = [
     title: 'Project CHAYA — Sovereign Biomimetic Initiative',
     description: 'High-altitude tactical flight demonstration showing silent aerodynamic mechanics and sovereign Indian engineering.',
     duration: '0:45',
-    src: '/assets/project-chaya/videos/chaya-demonstration.mp4',
-    poster: '/assets/project-chaya/images/chaya-concept.jpg'
+    src: './assets/project-chaya/videos/chaya-demonstration.mp4',
+    poster: './assets/project-chaya/images/chaya-concept.jpg'
   },
   {
     id: 'vid-2',
@@ -450,8 +450,8 @@ export const VIDEO_SHOWCASE = [
     title: 'ULUKA-N1 — Silent Flapping Flight Kinematics',
     description: 'Nocturnal test flight capturing inaudible wing-beat acoustics and micro-vortex wind dampening at under 10 decibels.',
     duration: '0:38',
-    src: '/assets/uluka-n1/videos/uluka-nightops-flight.mp4',
-    poster: '/assets/uluka-n1/images/uluka-stealth-platform.jpg'
+    src: './assets/uluka-n1/videos/uluka-nightops-flight.mp4',
+    poster: './assets/uluka-n1/images/uluka-stealth-platform.jpg'
   },
   {
     id: 'vid-3',
@@ -459,8 +459,8 @@ export const VIDEO_SHOWCASE = [
     title: 'SHYENA-D1 — High-Altitude Mountain Soaring',
     description: 'Himalayan ridgeline flight trial displaying wing-warping stability against 50 km/h gusts and dynamic thermal gliding.',
     duration: '0:52',
-    src: '/assets/shyena-d1/videos/shyena-apex-flight.mp4',
-    poster: '/assets/shyena-d1/images/shyena-himalayan-soaring.jpg'
+    src: './assets/shyena-d1/videos/shyena-apex-flight.mp4',
+    poster: './assets/shyena-d1/images/shyena-himalayan-soaring.jpg'
   },
   {
     id: 'vid-4',
@@ -468,8 +468,8 @@ export const VIDEO_SHOWCASE = [
     title: 'SHYENA-D1 — Reconnaissance & Ridge Patrol',
     description: 'Tactical scouting profile over steep terrain showing autonomous NavIC satellite navigation in radio-silent mode.',
     duration: '0:40',
-    src: '/assets/shyena-d1/videos/shyena-mountain-recon.mp4',
-    poster: '/assets/shyena-d1/images/shyena-perched-mountain.jpg'
+    src: './assets/shyena-d1/videos/shyena-mountain-recon.mp4',
+    poster: './assets/shyena-d1/images/shyena-perched-mountain.jpg'
   }
 ];
 
