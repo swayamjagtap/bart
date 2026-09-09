@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { STRATEGIC_ROADMAP } from '../data/content';
 import { CheckCircle2, Clock, Calendar, ArrowRight, Shield } from 'lucide-react';
 

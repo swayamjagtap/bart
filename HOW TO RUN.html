@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B.A.R.T. - How to Launch</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        background: #020817;
+        color: #e2e8f0;
+        font-family: "Segoe UI", system-ui, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+        padding: 2rem;
+      }
+      .card {
+        background: #0f172a;
+        border: 1px solid #1e40af55;
+        border-radius: 12px;
+        padding: 3rem 2.5rem;
+        max-width: 520px;
+        box-shadow: 0 0 60px #1e40af22;
+      }
+      .logo { font-size: 2.5rem; font-weight: 900; letter-spacing: 0.15em; color: #3b82f6; margin-bottom: 0.25rem; }
+      .tagline { font-size: 0.72rem; letter-spacing: 0.25em; color: #64748b; text-transform: uppercase; margin-bottom: 2rem; }
+      h2 { font-size: 1rem; color: #94a3b8; margin-bottom: 1.5rem; font-weight: 400; }
+      .step {
+        background: #1e293b;
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 0.75rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        text-align: left;
+      }
+      .num {
+        background: #1d4ed8;
+        color: #fff;
+        width: 28px; height: 28px;
+        border-radius: 50%;
+        display: flex; align-items: center; justify-content: center;
+        font-size: 0.8rem; font-weight: 700;
+        flex-shrink: 0;
+      }
+      .step-text { font-size: 0.88rem; color: #cbd5e1; line-height: 1.5; }
+      .step-text strong { color: #60a5fa; }
+      .note { margin-top: 1.5rem; font-size: 0.72rem; color: #475569; line-height: 1.6; }
+      .divider { border: none; border-top: 1px solid #1e293b; margin: 1.5rem 0; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="logo">B.A.R.T.</div>
+      <div class="tagline">Biomimetic Autonomous Robotics &amp; Technologies</div>
+      <h2>React websites need a local server — they cannot open directly from a file.<br/>Here is how to launch it:</h2>
+
+      <div class="step">
+        <div class="num">1</div>
+        <div class="step-text">Double-click <strong>START WEBSITE.bat</strong> in this folder</div>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <div class="step-text">A terminal window opens and builds the site</div>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <div class="step-text">Your browser opens automatically at <strong>http://localhost:4173</strong></div>
+      </div>
+      <div class="step">
+        <div class="num">4</div>
+        <div class="step-text">Keep the terminal window open while browsing — close it when done</div>
+      </div>
+
+      <hr class="divider" />
+      <p class="note">
+        Once deployed to GitHub Pages or Netlify, the site will open normally in any browser without needing this step.
+      </p>
+    </div>
+  </body>
+</html>

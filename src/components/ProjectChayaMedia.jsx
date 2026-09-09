@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Play, Maximize2, Layers, Film, Image as ImageIcon } from 'lucide-react';
 import VideoPlayer from './common/VideoPlayer';
 import ImageLightbox from './common/ImageLightbox';

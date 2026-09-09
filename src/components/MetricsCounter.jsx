@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { KEY_METRICS } from '../data/content';
 import { ShieldCheck, Zap, VolumeX, Cpu, Clock, Navigation } from 'lucide-react';
 

@@ -1,16 +1,55 @@
 <!doctype html>
-<html lang="en" class="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/assets/logo/bart-emblem.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#06090e" />
-    <meta name="description" content="Official website of B.A.R.T. — Indian defence technology organization developing indigenous biomimetic aerial systems, Project CHAYA, ULUKA-N1, SHYENA-D1, and VIRTUS-EYE edge AI." />
     <title>B.A.R.T. | Indigenous Biomimetic Aerial Systems | Project CHAYA</title>
+    <meta name="description" content="B.A.R.T. — Biomimetic Autonomous Robotics & Technologies. India's premier indigenous developer of biomimetic aerial defence systems. Project CHAYA, ULUKA-N1, SHYENA-D1." />
+    <script>
+      if (window.location.protocol === 'file:') {
+        document.addEventListener('DOMContentLoaded', function () {
+          var root = document.getElementById('root');
+          if (root) {
+            root.innerHTML = `
+              <div style="background:#020817; color:#e2e8f0; font-family:'Segoe UI', system-ui, -apple-system, sans-serif; display:flex; align-items:center; justify-content:center; min-height:100vh; padding:2rem; box-sizing:border-box;">
+                <div style="background:#0f172a; border:1px solid #1e40af55; border-radius:16px; padding:3rem 2.5rem; max-width:540px; text-align:center; box-shadow:0 0 60px #1e40af22;">
+                  <div style="font-size:2.5rem; font-weight:900; letter-spacing:0.15em; color:#3b82f6; margin-bottom:0.25rem;">B.A.R.T.</div>
+                  <div style="font-size:0.75rem; letter-spacing:0.25em; color:#64748b; text-transform:uppercase; margin-bottom:2rem;">Biomimetic Autonomous Robotics &amp; Technologies</div>
+                  <h2 style="font-size:1.15rem; color:#f8fafc; margin-bottom:1.5rem; font-weight:600;">Website Local Server Required</h2>
+                  <p style="font-size:0.9rem; color:#94a3b8; line-height:1.6; margin-bottom:1.75rem;">
+                    You opened <code style="background:#1e293b; color:#60a5fa; padding:2px 6px; border-radius:4px;">index.html</code> directly from disk. Modern React web applications require a local server to load modules.
+                  </p>
+                  <div style="background:#1e293b; border:1px solid #334155; border-radius:10px; padding:1.25rem; text-align:left; margin-bottom:1.5rem;">
+                    <div style="font-weight:700; color:#38bdf8; font-size:0.95rem; margin-bottom:0.75rem; display:flex; align-items:center; gap:8px;">
+                      🚀 How to launch the website:
+                    </div>
+                    <ol style="margin:0; padding-left:1.25rem; color:#cbd5e1; font-size:0.88rem; line-height:1.8;">
+                      <li>Double-click <strong style="color:#f1f5f9;">START WEBSITE.bat</strong> in this folder.</li>
+                      <li>Your browser will open automatically at <strong style="color:#60a5fa;">http://localhost:4173</strong>.</li>
+                    </ol>
+                  </div>
+                  <div style="font-size:0.78rem; color:#64748b; line-height:1.5;">
+                    Keep the terminal window open while browsing. Close it when you are finished.
+                  </div>
+                </div>
+              </div>
+            `;
+          }
+        });
+      }
+    </script>
   </head>
-  <body class="bg-[#06090e] text-slate-100 antialiased selection:bg-amber-500 selection:text-slate-950">
+  <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Shown only when JS/module loading fails -->
+    <noscript>
+      <style>
+        body { background:#020817; color:#e2e8f0; font-family:system-ui; display:flex; align-items:center; justify-content:center; min-height:100vh; text-align:center; padding:2rem; }
+      </style>
+      <h2>Please enable JavaScript to run B.A.R.T. website.</h2>
+    </noscript>
   </body>
 </html>
-

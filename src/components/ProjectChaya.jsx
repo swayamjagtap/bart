@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { PROJECT_CHAYA } from '../data/content';
 import { Shield, VolumeX, EyeOff, Radio, CheckCircle, ArrowRight } from 'lucide-react';
 

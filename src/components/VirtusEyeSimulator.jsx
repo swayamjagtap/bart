@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { VIRTUS_EYE } from '../data/content';
 import { Eye, ShieldAlert, Cpu, Crosshair, Radio, Scan } from 'lucide-react';
 

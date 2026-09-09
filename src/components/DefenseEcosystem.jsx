@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { ECOSYSTEM_PARTNERS } from '../data/content';
 import { Building2, ShieldCheck, Microscope, Cpu } from 'lucide-react';
 

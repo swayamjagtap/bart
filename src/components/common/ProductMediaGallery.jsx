@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Play, Maximize2, Shield, Eye, Cpu, Zap, ChevronRight } from 'lucide-react';
 import VideoPlayer from './VideoPlayer';
 import ImageLightbox from './ImageLightbox';

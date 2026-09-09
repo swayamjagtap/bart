@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { VIDEO_SHOWCASE } from '../data/content';
 import { Play, Film, X, Clock, Maximize2 } from 'lucide-react';
 import VideoPlayer from './common/VideoPlayer';

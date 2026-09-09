@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { COMPLIANCE_BADGES } from '../data/content';
 import { ShieldCheck, Award, FileCheck, Radio, ShieldAlert, Lock } from 'lucide-react';
 

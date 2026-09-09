@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { ShieldCheck, VolumeX, ThermometerSnowflake, FileText, Navigation, Cpu } from 'lucide-react';
 
 export default function CapabilitiesSection() {

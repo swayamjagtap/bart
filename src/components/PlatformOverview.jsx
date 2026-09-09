@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { PLATFORMS } from '../data/content';
 import { Moon, Sun, ArrowRight, ShieldCheck, Zap, VolumeX, Eye } from 'lucide-react';
 

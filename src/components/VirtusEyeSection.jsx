@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { VIRTUS_EYE } from '../data/content';
 import VirtusEyeSimulator from './VirtusEyeSimulator';
 import { Cpu, ShieldAlert, Radio, Eye, Lock, Zap, CheckCircle2 } from 'lucide-react';

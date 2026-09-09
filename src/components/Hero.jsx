@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { COMPANY_INFO, PROJECT_CHAYA } from '../data/content';
 import { Shield, Play, ChevronDown, Radar, Radio, Lock, ArrowRight } from 'lucide-react';
 import ImageLightbox from './common/ImageLightbox';
@@ -72,10 +72,10 @@ export default function Hero() {
         {/* Key Feature Badges */}
         <div className="flex flex-wrap justify-center gap-2 sm:gap-3 my-8 text-xs font-mono-tech text-slate-300 max-w-4xl">
           <span className="px-3 py-1 bg-slate-900/80 border border-slate-800 rounded-md">
-            🦅 BIO-KINEMATIC STEALTH
+            �|� BIO-KINEMATIC STEALTH
           </span>
           <span className="px-3 py-1 bg-slate-900/80 border border-slate-800 rounded-md">
-            🦉 ULUKA-N1 & SHYENA-D1
+            �|� ULUKA-N1 & SHYENA-D1
           </span>
           <span className="px-3 py-1 bg-slate-900/80 border border-slate-800 rounded-md">
             🧠 VIRTUS-EYE EDGE-AI

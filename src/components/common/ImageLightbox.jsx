@@ -1,4 +1,4 @@
-﻿import React, { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { X, ZoomIn, ZoomOut, Maximize2, ShieldAlert, Download } from 'lucide-react';
 
 export default function ImageLightbox({ isOpen, onClose, media }) {

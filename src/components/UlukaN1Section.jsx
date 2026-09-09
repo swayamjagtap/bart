@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { PLATFORMS } from '../data/content';
 import ProductMediaGallery from './common/ProductMediaGallery';
 import { Moon, Shield, Eye, BatteryCharging, Radio, VolumeX, CheckCircle } from 'lucide-react';

@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Award, Shield, CheckCircle } from 'lucide-react';
 
 export default function MakeInIndiaBanner() {

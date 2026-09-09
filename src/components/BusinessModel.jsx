@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { BUSINESS_MODEL } from '../data/content';
 import { TrendingUp, DollarSign, Package, Shield, ArrowUpRight, BarChart3 } from 'lucide-react';
 

@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Shield, Send, CheckCircle2, Lock, AlertCircle } from 'lucide-react';
 
 export default function EnquirySection() {

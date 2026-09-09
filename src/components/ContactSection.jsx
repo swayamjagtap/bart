@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { COMPANY_INFO } from '../data/content';
 import { MapPin, Mail, Lock, Shield, PhoneCall } from 'lucide-react';
 

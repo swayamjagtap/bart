@@ -1,9 +1,9 @@
-# B.A.R.T. — Biomimetic Autonomous Robotics & Technologies
+# B.A.R.T. â€” Biomimetic Autonomous Robotics & Technologies
 
 > **Adrishya. Achook. Atmanirbhar.**
 > *Invisible. Infallible. Self-Reliant.*
 
-Official corporate website for **B.A.R.T.** — India's indigenous biomimetic aerial defence systems organization. Built with React + Vite + Tailwind CSS v4.
+Official corporate website for **B.A.R.T.** â€” India's indigenous biomimetic aerial defence systems organization. Built with React + Vite + Tailwind CSS v4.
 
 ---
 
@@ -46,7 +46,7 @@ public/assets/shyena-d1/videos/shyena-mountain-recon.mp4
 public/assets/project-chaya/videos/chaya-demonstration.mp4
 ```
 
-The site works without them — video sections degrade gracefully.
+The site works without them â€” video sections degrade gracefully.
 
 ---
 
@@ -55,16 +55,16 @@ The site works without them — video sections degrade gracefully.
 ```
 bart/
 +-- public/assets/
-¦   +-- logo/              # B.A.R.T. brand assets
-¦   +-- uluka-n1/          # ULUKA-N1 images & videos
-¦   +-- shyena-d1/         # SHYENA-D1 images & videos
-¦   +-- project-chaya/     # Project CHAYA images & videos
-¦   +-- virtus-eye/        # VIRTUS-EYE images
+|   +-- logo/              # B.A.R.T. brand assets
+|   +-- uluka-n1/          # ULUKA-N1 images & videos
+|   +-- shyena-d1/         # SHYENA-D1 images & videos
+|   +-- project-chaya/     # Project CHAYA images & videos
+|   +-- virtus-eye/        # VIRTUS-EYE images
 +-- src/
-¦   +-- components/        # All 23 site sections
-¦   +-- data/content.js    # Single source of truth
-¦   +-- App.jsx
-¦   +-- index.css          # Tailwind v4 + aerospace dark theme
+|   +-- components/        # All 23 site sections
+|   +-- data/content.js    # Single source of truth
+|   +-- App.jsx
+|   +-- index.css          # Tailwind v4 + aerospace dark theme
 +-- index.html
 +-- vite.config.js
 +-- package.json
@@ -74,4 +74,4 @@ bart/
 
 ## License
 
-Proprietary — B.A.R.T. / GarudAstra Defence Systems. All rights reserved.
+Proprietary â€” B.A.R.T. / GarudAstra Defence Systems. All rights reserved.
