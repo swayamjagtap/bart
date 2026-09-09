@@ -98,7 +98,7 @@ export default function AboutBART() {
             <div className="relative rounded-2xl overflow-hidden border border-amber-500/30 bg-slate-900/80 shadow-2xl p-6 backdrop-blur-md">
               <div className="relative aspect-square w-full rounded-xl overflow-hidden mb-6 border border-slate-800">
                 <img
-                  src="./assets/uluka-n1/images/uluka-subsystem-analysis.jpg"
+                  src={`${import.meta.env.BASE_URL}assets/uluka-n1/images/uluka-subsystem-analysis.jpg`}
                   alt="B.A.R.T. Biomimetic Architecture"
                   className="w-full h-full object-cover"
                 />

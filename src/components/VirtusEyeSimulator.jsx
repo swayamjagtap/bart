@@ -54,10 +54,10 @@ export default function VirtusEyeSimulator() {
         <img
           src={
             activeMode === 'thermal'
-              ? './assets/virtus-eye/images/virtus-thermal-fusion.jpg'
+              ? `${import.meta.env.BASE_URL}assets/virtus-eye/images/virtus-thermal-fusion.jpg`
               : activeMode === 'ai'
-              ? './assets/virtus-eye/images/virtus-eye-hud.jpg'
-              : './assets/uluka-n1/images/uluka-morphology.jpg'
+              ? `${import.meta.env.BASE_URL}assets/virtus-eye/images/virtus-eye-hud.jpg`
+              : `${import.meta.env.BASE_URL}assets/uluka-n1/images/uluka-morphology.jpg`
           }
           alt="Sensor Simulation"
           className={`w-full h-full object-cover transition-all duration-700 ${

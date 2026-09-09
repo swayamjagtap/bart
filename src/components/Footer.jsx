@@ -38,7 +38,7 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center">
               <img
-                src="./assets/logo/bart-logo-full.png"
+                src={`${import.meta.env.BASE_URL}assets/logo/bart-logo-full.png`}
                 alt="B.A.R.T. - Biomimetic Autonomous Robotics & Technologies"
                 className="h-10 sm:h-12 w-auto max-w-[260px] object-contain"
               />

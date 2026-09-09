@@ -9,29 +9,29 @@ export default function ProjectChayaMedia() {
       id: 'chaya-demo-vid',
       type: 'video',
       title: 'Project CHAYA — Tactical Flight Demonstration',
-      src: './assets/project-chaya/videos/chaya-demonstration.mp4',
-      poster: './assets/project-chaya/images/chaya-concept.jpg',
+      src: `${import.meta.env.BASE_URL}assets/project-chaya/videos/chaya-demonstration.mp4`,
+      poster: `${import.meta.env.BASE_URL}assets/project-chaya/images/chaya-concept.jpg`,
       caption: 'Project CHAYA — Flight demonstration video showcasing bio-kinematic propulsion and inaudible flight mechanics'
     },
     {
       id: 'chaya-concept-img',
       type: 'image',
       title: 'Project CHAYA — Biomimetic Airframe Architecture',
-      src: './assets/project-chaya/images/chaya-concept.jpg',
+      src: `${import.meta.env.BASE_URL}assets/project-chaya/images/chaya-concept.jpg`,
       caption: 'Project CHAYA — Integrated dorsal avionics, synthetic feather serrations, and solar charging cells'
     },
     {
       id: 'chaya-hi-alt-img',
       type: 'image',
       title: 'Project CHAYA — High-Altitude Soaring Flight',
-      src: './assets/project-chaya/images/chaya-high-altitude.jpg',
+      src: `${import.meta.env.BASE_URL}assets/project-chaya/images/chaya-high-altitude.jpg`,
       caption: 'Project CHAYA — Himalayan mountain patrol configuration operating along high-altitude ridge lines'
     },
     {
       id: 'chaya-thermal-img',
       type: 'image',
       title: 'Project CHAYA — Dual-Spectrum Thermal Reconnaissance',
-      src: './assets/project-chaya/images/chaya-thermal-recon.jpg',
+      src: `${import.meta.env.BASE_URL}assets/project-chaya/images/chaya-thermal-recon.jpg`,
       caption: 'Project CHAYA — Concealed eye-sensor optics and real-time thermal fusion imaging'
     }
   ];
